@@ -1,0 +1,21 @@
+{
+  "name": "wtfEmojisAPI",
+  "version": "1.0.0",
+  "description": "wtfEmojis API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "author": "Victor Diaz de Leon",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.3",
+    "morgan": "^1.8.1"
+  }
+}
